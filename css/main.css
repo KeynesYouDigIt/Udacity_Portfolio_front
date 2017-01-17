@@ -1,0 +1,119 @@
+* {
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	/* alt font for post sub, reviewer pls ignore
+	font-family: 'Muli', sans-serif;
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    */
+	font-size: 22px;
+	color: black;
+	/* grid border
+	border:2px dotted red;
+	*/
+	text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+	* {
+		min-width: 100%;
+	}
+}
+
+@media screen and (min-width: 501px) {
+	section {
+		flex-grow: 3;
+	}
+/*	nav.open {
+	transform: translate(0,0);
+	}
+}*/
+
+
+nav {
+	width: 250px;
+	height: 100%;
+	position: absolute;
+	transform: translate(-200px,0);
+	transition: transform 0.6s;
+}
+
+
+a#menu svg {
+    width: 40px;
+    fill: #000;
+}
+
+body {
+	margin: 10px;
+	/*border: 1px solid black;*/
+	padding: 15px;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+	margin: 1px;
+	padding:	 1px;
+	float: right;
+	text-align: right;
+}
+
+h1 {
+	font-weight: 100;
+	font-size: 38px;
+	width: 400px;
+}
+
+h3 {
+	font-weight: 300;
+	font-size: 16px;
+}
+
+h4 {
+	font-weight: 400;
+	font-size: 28px;
+	color: #7d97ad;
+	text-align: left;
+	letter-spacing: 2px;
+}
+
+h5 {
+	font-weight: 400;
+	font-size: 32px;
+	text-align: center;
+	letter-spacing: 2px;
+	margin: 6px;
+}
+
+hr {
+	border-top: 3px solid #7d97ad;
+}
+
+p {
+	margin: 2px;
+	font-size: 4vw;
+	text-align: center;
+	letter-spacing: 0px;
+}
+
+img, embed, 
+object, video {
+	max-width: 100%;
+}
+
+.name_title{
+	width: 50%;
+}
+
+p.project_repo {
+	font-size: 8px;
+	text-align: center;
+	letter-spacing: 0px;
+	font-weight: 400;
+
+}
+
+section {
+	float: left;
+	width: 32.5%;
+}
