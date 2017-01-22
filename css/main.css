@@ -61,12 +61,6 @@ nav {
 	transition: transform 0.6s;
 }
 
-
-a#menu svg {
-    width: 40px;
-    fill: #000;
-}
-
 h1,
 h2,
 h3 {
@@ -115,11 +109,11 @@ p {
 }
 
 img,
-embed, 
+embed,
 object,
 video {
 	max-width: 100%;
-	border-radius: 
+	border-radius: 4px;
 }
 
 img.logo {
@@ -135,7 +129,7 @@ img.front {
 }
 
 img.project {
-	float: center;
+	align-content: center;
 	width: 200px;
 	min-width: 200px;
 	height: 200px;
